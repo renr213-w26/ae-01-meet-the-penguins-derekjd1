@@ -1,5 +1,8 @@
 ---
 title: "AE 01: Meet the penguins"
+auther: "Derek Dubrule"
+studentID: "1705185"
+Date: "Jan 17th, 2026"
 ---
 
 For this application exercise, we'll use the **tidyverse** and **palmerpenguins** packages.
@@ -20,6 +23,7 @@ Let's `glimpse()` at it.
 #| label: glimpse-penguins
 
 # add code here
+glimpse(penguins)
 ```
 
 -   **Demo:** First, replace the blank below with the number of rows in the `penguins` data frame based on the output of the chunk below. Then, replace it with "inline code" and render again.
@@ -30,9 +34,13 @@ Let's `glimpse()` at it.
 nrow(penguins)
 ```
 
-There are \_\_\_ penguins in the `penguins` data frame.
+There are `r nrow(penguins)` penguins in the `penguins` data frame.
 
 ```{r}
 x <- 2
 x * 3
 ```
+```{r}
+# 1 x * 3
+```
+
